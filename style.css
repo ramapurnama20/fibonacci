@@ -1,0 +1,127 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 0 20px 0;
+}
+
+.hitung-form {
+  border-radius: 12px;
+  padding: 15px 70px;
+  box-shadow: #222 5px 5px;
+  border: 2px solid #111;
+  display: grid;
+  gap: 20px;
+}
+
+input {
+  padding: 15px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.content {
+  padding: 25px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #222;
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .hitung-form {
+    padding: 10px 30px;
+  }
+}
